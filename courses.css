@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+}
+nav ul li{ 
+  display: inline-block;
+  line-height: 70px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  margin-right: 0.5cm;
+}
+nav{
+    background-color: rgba(240, 233, 226, 0.75); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search{
+    margin-bottom: 0.5cm;
+    background-color: rgb(230, 223, 223);
+    border-style: none;
+    border-radius: 8px;
+    height: 1.5cm;
+    text-align: center;
+  }
+ 
+.btn-container {
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 0.5cm;
+    }
+    
+  .filter-btn {
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border-style: hidden;
+    cursor: pointer;
+  }
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    row-gap: 0.5cm;
+    grid-template-columns: 9cm 9cm 9cm;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .coursephoto {
+    object-fit: cover;
+    height: 150px;
+    width: 8cm;
+    border-radius: 10px;
+  }
+  .coursename {
+    text-align: center;
+    color: gray;
+
+  }
+ .price {
+    text-align: center;
+    color: black;
+    font-weight: 1000;
+  }
+  .range{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+  }
+ .biggrid{
+    margin-top: 2cm;
+    margin-left: 4cm;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+

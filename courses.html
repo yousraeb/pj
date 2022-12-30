@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <title>Courses</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li> 
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+    <section class="biggrid">
+        <div class>
+          <!-- filtrer par recherche -->
+            <div class="searchinput">
+            <input type="text" class="search" placeholder="Search..." id="search">
+            </div>
+          <!-- filtrer par boutons -->
+             <div class="btn-container">
+             <button type="button" class="filter-btn" id="ALL" onclick="fct(ALL)">All</button>
+             <button type="button" class="filter-btn" id="JS" onclick="fct(JS)">JS</button> 
+             <button type="button" class="filter-btn" id="HTML" onclick="fct(HTML)">HTML</button> 
+             <button type="button" class="filter-btn" id="CS" onclick="fct(CS)">CSS</button> 
+             <button type="button" class="filter-btn" id="PHP" onclick="fct(PHP)">PHP</button>  
+            </div>
+          <!-- filtrer par prix -->
+             <div class="range">
+              <p>price</p>
+             <input type="range" id="range" value="0" min="0" max="100" step="0.9" onmousemove="rangeSlider(this.value)" onclick="price(this.value)" >
+             <span id="rangevalue" ></span>
+             </div>
+        </div>
+      
+        
+        <!-- courses items -->
+        <div class="section-center">
+          <article class="menu-item">
+            <img src="" alt="" class="coursephoto" />
+            <div class="item-info">
+              <header>
+                <h4 class="coursename"> </h4> 
+                <h4 class="price"> </h4> 
+              </header>
+             </div>
+          </article>
+        </div>
+      </section>
+      
+<script src="courses.js"></script>
+</body>
+</html>

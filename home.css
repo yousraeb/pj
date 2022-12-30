@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+  }
+  nav ul li{ 
+    display: inline-block;
+    line-height: 70px; 
+  }
+  nav ul li a{
+    text-decoration: none;
+    margin-right: 0.5cm;
+  }
+  nav{
+      background-color: rgba(240, 233, 226, 0.75);   
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+img{
+    width: 100%;
+    height: 500px;
+}
+.imgtrans{
+    top: -280px;
+    background-color: rgba(231, 229, 228, 0.75);
+    position: absolute;
+    border-radius: 80px;
+    width: 50%;
+    height: 400px;
+    margin: 400px;       
+}
+#p{
+    text-align: center;
+    margin: 60px;    
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(6, 8, 77);
+    font-family: Century Gothic;
+}
+
+#bouton1{
+   margin-left: 280px;
+   background-color: rgb(172, 116, 10);
+   padding: 10px;
+   padding-left: 1cm;
+   padding-right: 1cm;
+   border-color: white;
+   border-radius: 5px;
+   justify-content: center; 
+}
+h2{
+    justify-content: center;
+    display: flex;
+    margin-bottom: -1cm;
+    margin: 50px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p3{
+  color: orange;
+}
+.p4{
+   color: black;
+}
+#img3{
+    justify-content: center;
+    height: 150px;
+    width: 7cm;
+    border-radius: 8px;
+}
+.grille{
+   max-width: 800px;
+   width: 80%;
+   height: auto; 
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+}
+
+.coursename {
+    font-size: small;
+    text-align: center;
+    color: gray;
+    margin-top: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .price {
+    font-size: small;
+    text-align: center;
+    color: black;
+    font-weight: 1000;
+    margin-bottom: 0cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+#bouton2{
+    margin-left: 45%;
+    background-color: rgb(172, 116, 10);
+    padding: 10px;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 0cm;
+    margin-bottom: 2cm;
+ }
+
+ 
+
